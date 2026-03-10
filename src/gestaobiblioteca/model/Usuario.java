@@ -23,8 +23,9 @@ public abstract class Usuario implements Autenticavel {
             
         } else {
             throw new IllegalArgumentException("ID deve ser maior que zero.");
-            
+          
         }
+        this.id = id;
     }
 }
 
