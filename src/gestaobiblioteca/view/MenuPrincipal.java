@@ -13,8 +13,8 @@ public class MenuPrincipal {
         
         switch (opcao) {
             case 1:
-                MenuLogin menuLogin = new MenuLogin();
-                menuLogin.exibirMenu();
+                System.out.println("Opção de Login selecionada.");
+                
                 break;
             case 4:
                 System.out.println("Saindo do sistema...");
