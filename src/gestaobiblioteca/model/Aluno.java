@@ -6,5 +6,6 @@ public class Aluno extends Usuario {
         super(id, nome, email, login, senha, Perfil.ALUNO);
         
     }
+   
     
 }

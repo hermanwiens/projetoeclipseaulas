@@ -8,6 +8,9 @@ public abstract class Usuario implements Autenticavel {
     private String senha;
     private boolean primeiroacesso = true;
     private Perfil perfil;
+//criar novo construtor para receber os dados do login e senha e perfil de alunos   
+    
+
 
     public Usuario(long id, String nome, String email, 
         String login, String senha,  Perfil perfil) {
@@ -27,6 +30,7 @@ public abstract class Usuario implements Autenticavel {
         }
         this.id = id;
     }
+    
 }
 
     
